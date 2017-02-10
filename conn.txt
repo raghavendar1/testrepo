@@ -1,0 +1,22 @@
+  <connectionStrings>
+    <add name="default"
+          connectionString="Data Source=167.114.119.195\MSSQL2012,9191;Initial Catalog=Production_UAT_Testing;Persist Security Info=True;User ID=sa;Password=Sa@1234;Max Pool Size=1024;Pooling=true;"
+          providerName="System.Data.SqlClient"/>
+    <add name="msdb" connectionString="Data Source=167.114.119.195\MSSQL2012,9191;Initial Catalog=msdb;Persist Security Info=True;User ID=sa;Password=Sa@1234;Max Pool Size=1024;Pooling=true;" providerName="System.Data.SqlClient" />
+    <add name="ssis"
+      connectionString="Data Source=167.114.119.195\MSSQL2012,9191;Initial Catalog=Production_UAT_Testing;Provider=SQLOLEDB;User ID=sa;Password=Sa@1234;Max Pool Size=1024;Pooling=true;"
+      providerName="System.Data.SqlClient"/>
+
+  </connectionStrings>
+
+
+ <connectionStrings>
+    <add name="default"
+      connectionString="Data Source=VERTIV.NET\MSSQL2012,8181;Initial Catalog=production_uat;Persist Security Info=True;User ID=sa;Password=Canara@123;Max Pool Size=1024;Pooling=true;"
+      providerName="System.Data.SqlClient"/>
+    <add name="msdb" connectionString="Data Source=VERTIV.NET\MSSQL2012,8181;Initial Catalog=msdb;Persist Security Info=True;User ID=sa;Password=Canara@123;Max Pool Size=1024;Pooling=true;" providerName="System.Data.SqlClient" />
+    <add name="ssis"
+      connectionString="Data Source=VERTIV.NET\MSSQL2012;Initial Catalog=production_uat;Provider=SQLOLEDB;User ID=sa;Password=Canara@123;Max Pool Size=1024;Pooling=true;"
+      providerName="System.Data.SqlClient"/>
+
+  </connectionStrings>
